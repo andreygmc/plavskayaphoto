@@ -24,10 +24,12 @@
                                 <li><a href="children.php">ДЕТИ</a></li>
                                 <li><a href="family.php">СЕМЬЯ</a></li>
                                 <li><a href="portraits.php">ПОРТРЕТЫ</a></li>
+                                <li><a href="retouch.php">РЕТУШЬ</a></li>
                             </ul>
                         </li>
                         <li><a href="about.php">ОБО МНЕ</a></li>
                         <li><a href="services.php">УСЛУГИ</a></li>
+                        <li><a href="feedback.php">ОТЗЫВЫ</a></li>
                         <li><a href="contacts.php">КОНТАКТЫ</a></li>
                     </ul>
                 </div>

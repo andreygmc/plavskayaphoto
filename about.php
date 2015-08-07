@@ -15,24 +15,45 @@ $page_name = ' - Обо мне';
 
     <img class="my-photo" src="assets/img/mine.jpg"/>
 
-    <h4>Давайте знакомиться!</h4>
     <p>
-        Рада приветствовать Вас в группе детского и семейного фотографа Плавской Екатерины. Жизнь дарит нам чудесные
-        мгновения. Хочется их остановить. Приглашаю Вас сделать это на фотосессиях<br/>
-        Я фотограф в Ассоциации детских и семейных фотографов (ДИСФО) - <a
-            href="http://disfo.ru/profile/plavskaya-ek_83/">моя страничка на ДИСФО</a>
+        Меня зовут Плавская Екатерина. Рада видеть Вас на своем сайте.
     </p>
 
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Я профессиональный фотограф,
+        <a href="http://disfo.ru/profile/plavskaya-ek_83/">член Ассоциации детских и семейных фотографов</a> — все лучшие детские и семейные фотографы.
+
+    <p>
+        Фотография для меня не просто работа, это возможность поймать момент, который уйдет навсегда. Это искусство наблюдения, умение видеть в самых обычных вещах неповторимую красоту. Своими работами я хочу подарить Вам незабываемую сказку и сохранить в картинках историю Вашей семьи.
     </p>
 
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Я провожу фотосъемку в Москве и Московской области. Мои работы представлены в портфолио в следующих жанрах: <a href="waiting.php">ожидание</a>, <a href="newborns.php">новорожденные</a>, <a href="children.php">дети</a>, <a href="family.php">семья</a>, <a href="portraits.php">портреты</a>.
     </p>
 
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        В работе я использую профессиональную фототехнику Nikon.
+    </p>
+
+    <p>
+        Также я выполняю работу по профессиональной ретуши фотографий. <a href="retouch.php">Здесь</a>  Вы можете увидеть фотографии до и после обработки.
+    </p>
+
+    <p>
+        Каждый раз, работая с клиентами, я руководствуюсь высказыванием американского фотографа, создателя особого жанра в фотографии - environmental portraiture, Арнольда Ньюмана:
+        <blockquote><i>&laquo;Многие фотографы считают, что если они купят лучшую камеру, то смогут снимать лучшие фотографии. Лучшая камера не будет работать за вас, если в вашей голове и сердце ничего нет&raquo;.</i></blockquote>
+    </p>
+
+    <p>
+        Если Вы спросите, какую фотографию я люблю больше всего, я отвечу — ту, которую мы создадим вместе с Вами.
+    </p>
+
+    <p>
+        Пишите и звоните! Буду рада общению и сотрудничеству.
+    </p>
+
+    <p>
+        Ваш детский и семейный фотограф Екатерина Плавская.
     </p>
 
     <?php include 'footer.php' ?>
