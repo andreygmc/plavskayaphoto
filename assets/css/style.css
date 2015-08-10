@@ -88,6 +88,10 @@ footer {
 
 }
 
+.marketing .contactInfo {
+    text-align: center;
+}
+
 .marketing .my-photo {
     float: right;
     padding: 10px;

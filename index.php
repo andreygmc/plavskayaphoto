@@ -12,27 +12,30 @@
 
 <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
-        <div class="item active">
-            <img src="assets/img/1.jpg">
+        <div class="item">
+            <img src="assets/img/0810.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/2.jpg">
+            <img src="assets/img/0954.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/3.jpg">
+            <img src="assets/img/0990.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/4.jpg">
+            <img src="assets/img/1076.jpg">
         </div>
-        <!--div class="item">
-            <img src="assets/img/5.jpg">
-        </div-->
         <div class="item">
-            <img src="assets/img/6.jpg">
+            <img src="assets/img/1214.jpg">
         </div>
-        <!--
-        0954, 0990, 3513
-        -->
+        <div class="item">
+            <img src="assets/img/1441.jpg">
+        </div>
+        <div class="item">
+            <img src="assets/img/2582.jpg">
+        </div>
+        <div class="item">
+            <img src="assets/img/3286.jpg">
+        </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
