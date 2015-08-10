@@ -12,7 +12,7 @@
 
 <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
-        <div class="item">
+        <div class="item active">
             <img src="assets/img/0810.jpg">
         </div>
         <div class="item">

@@ -10,11 +10,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a class="brand" href="index.php"><img src="assets/img/logo.png" width="45"/></a>
+                <a class="brand" href="/"><img src="assets/img/logo.png" width="45"/></a>
 
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li><a href="index.php">ГЛАВНАЯ</a></li>
+                        <li><a href="/">ГЛАВНАЯ</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">ПОРТФОЛИО <b
                                     class="caret"></b></a>
