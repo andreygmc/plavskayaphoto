@@ -10,16 +10,22 @@
 
 <?php include 'navbar.php' ?>
 
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
         <div class="item active">
+            <img src="assets/img/1381.jpg">
+        </div>
+        <div class="item">
+            <img src="assets/img/0938.jpg">
+        </div>
+		<div class="item">
+            <img src="assets/img/1131.jpg">
+        </div>
+        <div class="item">
+            <img src="assets/img/3286.jpg">
+        </div>
+        <div class="item">
             <img src="assets/img/0810.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/0954.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/0990.jpg">
         </div>
         <div class="item">
             <img src="assets/img/1076.jpg">
@@ -31,10 +37,10 @@
             <img src="assets/img/1441.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/2582.jpg">
+            <img src="assets/img/0954.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/3286.jpg">
+            <img src="assets/img/2582.jpg">
         </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -49,7 +55,6 @@
 <script>
     !function ($) {
         $(function () {
-            // carousel demo
             $('#myCarousel').carousel()
         })
     }(window.jQuery)
