@@ -14,6 +14,9 @@ $page_name = ' - Семья';
 <div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
         <div class="item active">
+            <img src="assets/img/1683.jpg">
+        </div>
+        <div class="item">
             <img src="assets/img/0678.jpg">
         </div>
 		<div class="item">

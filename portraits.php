@@ -14,6 +14,12 @@ $page_name = ' - Портреты';
 <div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
         <div class="item active">
+            <img src="assets/img/1771.jpg">
+        </div>
+        <div class="item">
+            <img src="assets/img/1857.jpg">
+        </div>
+        <div class="item">
             <img src="assets/img/1794.jpg">
         </div>
         <div class="item">
