@@ -13,6 +13,12 @@
 <div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
         <div class="item active">
+            <img src="assets/img/3307.jpg">
+        </div>
+        <div class="item">
+            <img src="assets/img/3467.jpg">
+        </div>
+        <div class="item">
             <img src="assets/img/2819.jpg">
         </div>
         <div class="item">
