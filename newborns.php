@@ -14,6 +14,9 @@ $page_name = ' - Новорожденные';
 <div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
         <div class="item active">
+            <img src="assets/img/5111.jpg">
+        </div>
+        <div class="item">
             <img src="assets/img/0938.jpg">
         </div>
 		<div class="item">
