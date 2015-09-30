@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php
-    $page_name = '';
+$page = 'home';
+$page_name = '';
 ?>
 
 <?php include 'head.php' ?>

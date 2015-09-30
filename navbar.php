@@ -10,26 +10,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a class="brand" href="/"><img src="assets/img/logo.png" width="45"/></a>
+                <a class="brand" href="/"><img src="assets/img/logo-new.png" width="120"/></a>
 
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li><a href="/">ГЛАВНАЯ</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ПОРТФОЛИО <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="waiting.php">ОЖИДАНИЕ</a></li>
-                                <li><a href="newborns.php">НОВОРОЖДЕННЫЕ</a></li>
-                                <li><a href="children.php">ДЕТИ</a></li>
-                                <li><a href="family.php">СЕМЬЯ</a></li>
-                                <li><a href="portraits.php">ПОРТРЕТЫ</a></li>
-                                <!--li><a href="retouch.php">РЕТУШЬ</a></li-->
-                            </ul>
-                        </li>
-                        <li><a href="about.php">ОБО МНЕ</a></li>
-                        <li><a href="services.php">УСЛУГИ</a></li>
-                        <li><a href="feedback.php">ОТЗЫВЫ</a></li>
-                        <li><a href="contacts.php">КОНТАКТЫ</a></li>
+                        <li class="<?php echo ($page == "home" ? "active" : "")?>"><a href="/">ГЛАВНАЯ</a></li>
+                        <li class="<?php echo ($page == "portfolio" ? "active" : "")?>"><a href="portfolio.php">ПОРТФОЛИО</a></li>
+                        <li class="<?php echo ($page == "about" ? "active" : "")?>"><a href="about.php">ОБО МНЕ</a></li>
+                        <li class="<?php echo ($page == "services" ? "active" : "")?>"><a href="services.php">УСЛУГИ</a></li>
+                        <li class="<?php echo ($page == "feedback" ? "active" : "")?>"><a href="feedback.php">ОТЗЫВЫ</a></li>
+                        <li class="<?php echo ($page == "contacts" ? "active" : "")?>"><a href="contacts.php">КОНТАКТЫ</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->

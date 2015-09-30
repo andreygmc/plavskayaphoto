@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <?php
+$page = 'portfolio';
 $page_name = ' - Новорожденные';
 ?>
 

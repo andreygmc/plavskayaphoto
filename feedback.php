@@ -2,7 +2,8 @@
 <html lang="ru">
 
 <?php
-    $page_name = ' - Отзывы';
+$page = 'feedback';
+$page_name = ' - Отзывы';
 ?>
 
 <?php include 'head.php' ?>

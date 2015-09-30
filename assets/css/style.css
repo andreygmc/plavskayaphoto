@@ -111,6 +111,10 @@ footer {
     margin-top: 120px;
 }
 
+.marketing a {
+
+}
+
 .marketing p {
 
 }
@@ -126,6 +130,10 @@ footer {
 
 
 @media (max-width: 979px) {
+    .marketing {
+        margin-top: 20px;
+    }
+
     .navbar-inner {
         margin: 0;
     }
@@ -143,6 +151,10 @@ footer {
 
 
 @media (max-width: 767px) {
+    .marketing {
+        margin-top: 20px;
+    }
+
     .navbar-inner {
         margin: 0;
     }
@@ -159,6 +171,10 @@ footer {
 }
 
 @media (max-width: 320px) {
+    .marketing {
+        margin-top: 20px;
+    }
+
     .carousel-control {
         height: 20px;
         font-size: 50px;

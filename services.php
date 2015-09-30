@@ -2,7 +2,8 @@
 <html lang="ru">
 
 <?php
-    $page_name = ' - Услуги';
+$page = 'services';
+$page_name = ' - Услуги';
 ?>
 
 <?php include 'head.php' ?>

@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <?php
+$page = 'contacts';
 $page_name = ' - Контакты';
 ?>
 
