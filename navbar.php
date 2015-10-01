@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a class="brand" href="/"><img src="assets/img/logo-new.png" width="120"/></a>
+                <a class="brand" href="/"><img src="assets/img/logo.png" width="120"/></a>
 
                 <div class="nav-collapse collapse">
                     <ul class="nav">
