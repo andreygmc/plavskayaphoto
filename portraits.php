@@ -15,6 +15,21 @@ $page_name = ' - Портреты';
 <div class="container marketing">
     <div class="row">
         <div class="span12">
+            <img src="assets/img/1852.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/0912-bw.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/3627.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
             <img src="assets/img/3610.jpg" alt="">
         </div>
     </div>

@@ -15,6 +15,21 @@ $page_name = ' - Семья';
 <div class="container marketing">
     <div class="row">
         <div class="span12">
+            <img src="assets/img/3636.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/2152.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/1560.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
             <img src="assets/img/3171.jpg" alt="">
         </div>
     </div>

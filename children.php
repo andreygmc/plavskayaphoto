@@ -15,6 +15,36 @@ $page_name = ' - Дети';
 <div class="container marketing">
     <div class="row">
         <div class="span12">
+            <img src="assets/img/3920.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/1768.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/3707.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/3738.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/3659.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/2800.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
             <img src="assets/img/0858.jpg" alt="">
         </div>
     </div>
