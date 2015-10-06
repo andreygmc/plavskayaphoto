@@ -108,7 +108,7 @@ footer {
 }
 
 .marketing {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .marketing a {
@@ -126,6 +126,20 @@ footer {
 .marketing .my-photo {
     float: right;
     padding: 10px;
+}
+
+.marketing .row {
+    margin-bottom: 20px;
+}
+
+.marketing h4 {
+    width: 100%;
+    text-align: center;
+}
+
+.marketing .row img {
+    display: block;
+    margin: auto;
 }
 
 

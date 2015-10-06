@@ -12,48 +12,48 @@ $page_name = ' - Портреты';
 
 <?php include 'navbar.php' ?>
 
-<div id="myCarousel" class="carousel slide c-fade">
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="assets/img/3610.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/1771.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/1857.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/1794.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/2582.jpg">
-        </div>
-		<div class="item">
-            <img src="assets/img/2598.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/3505.jpg">
+<div class="container marketing">
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/3610.jpg" alt="">
         </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-</div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/1771.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/1857.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/1794.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/2582.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/2598.jpg" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="span12">
+            <img src="assets/img/3505.jpg" alt="">
+        </div>
+    </div>
 
-<div class="container marketing">
 
     <?php include 'footer.php' ?>
 
 </div>
 
 <?php include 'js.php' ?>
-<script>
-    !function ($) {
-        $(function () {
-            $('#myCarousel').carousel()
-        })
-    }(window.jQuery)
-</script>
-
 </body>
 </html>
