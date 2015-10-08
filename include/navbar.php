@@ -19,6 +19,7 @@
                         <li class="<?php echo ($page == "about" ? "active" : "")?>"><a href="about.php">ОБО МНЕ</a></li>
                         <li class="<?php echo ($page == "services" ? "active" : "")?>"><a href="services.php">УСЛУГИ</a></li>
                         <li class="<?php echo ($page == "feedback" ? "active" : "")?>"><a href="feedback.php">ОТЗЫВЫ</a></li>
+                        <li class="<?php echo ($page == "blog" ? "active" : "")?>"><a href="blog.php">БЛОГ</a></li>
                         <li class="<?php echo ($page == "contacts" ? "active" : "")?>"><a href="contacts.php">КОНТАКТЫ</a></li>
                     </ul>
                 </div>

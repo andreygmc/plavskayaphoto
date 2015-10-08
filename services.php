@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php
+define('__INCLUDE__', "../include");
+require_once(__INCLUDE__."/common.php");
+
 $page = 'services';
 $page_name = ' - Услуги';
 ?>
 
-<?php include 'head.php' ?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<?php include __INCLUDE__.'/head.php' ?>
 
 <body>
 
-<?php include 'navbar.php' ?>
+<?php include __INCLUDE__.'/navbar.php' ?>
 
 <div class="container marketing">
 
@@ -105,11 +108,11 @@ $page_name = ' - Услуги';
     </p>
 
 
-<?php include 'footer.php' ?>
+<?php include __INCLUDE__.'/footer.php' ?>
 
 </div>
 
-<?php include 'js.php' ?>
+<?php include __INCLUDE__.'/js.php' ?>
 
 </body>
 </html>

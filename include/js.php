@@ -1,5 +1,5 @@
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.js"></script>
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/bootstrap.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {

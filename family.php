@@ -1,78 +1,30 @@
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php
+define('__INCLUDE__', "../include");
+require_once(__INCLUDE__."/common.php");
+
 $page = 'portfolio';
 $page_name = ' - Семья';
 ?>
 
-<?php include 'head.php' ?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<?php include __INCLUDE__.'/head.php' ?>
 
 <body>
 
-<?php include 'navbar.php' ?>
+<?php include __INCLUDE__.'/navbar.php' ?>
 
 <div class="container marketing">
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/3636.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/2152.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/1560.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/3171.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/1456.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/1683.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/0678.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/0789.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/1331.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/1495.jpg">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/6005.jpg">
-        </div>
-    </div>
-
-    <?php include 'footer.php' ?>
+    <?php
+    createPortfolioPhotoElements(
+        array("3636", "2152", "1560", "3171", "1456", "1683", "0678", "0789", "1331", "1495", "6005")
+    );
+    ?>
+    <?php include __INCLUDE__.'/footer.php' ?>
 
 </div>
 
-<?php include 'js.php' ?>
+<?php include __INCLUDE__.'/js.php' ?>
 </body>
 </html>

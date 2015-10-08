@@ -1,15 +1,19 @@
-<!DOCTYPE html>
-<html lang="ru">
 <?php
+define('__INCLUDE__', "../include");
+require_once(__INCLUDE__."/common.php");
+
 $page = 'home';
 $page_name = '';
 ?>
 
-<?php include 'head.php' ?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<?php include __INCLUDE__.'/head.php' ?>
 
 <body>
 
-<?php include 'navbar.php' ?>
+<?php include __INCLUDE__.'/navbar.php' ?>
 
 <div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
@@ -73,10 +77,10 @@ $page_name = '';
 </div>
 
 <div class="container marketing">
-    <?php include 'footer.php' ?>
+    <?php include __INCLUDE__.'/footer.php' ?>
 </div>
 
-<?php include 'js.php' ?>
+<?php include __INCLUDE__.'/js.php' ?>
 <script>
     !function ($) {
         $(function () {

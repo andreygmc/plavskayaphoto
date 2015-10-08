@@ -142,6 +142,26 @@ footer {
     margin: auto;
 }
 
+.marketing .date {
+    color: #cccccc;
+    text-align: center;
+}
+
+.marketing .blogTitle {
+    text-align: center;
+}
+
+.marketing .blogLink {
+    text-align: center;
+}
+
+.marketing .blogDescription {
+    text-align: center;
+}
+
+.marketing .blogLink a {
+    color: #cccccc !important;
+}
 
 @media (max-width: 979px) {
     .marketing {

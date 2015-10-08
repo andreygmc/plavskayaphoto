@@ -1,53 +1,30 @@
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php
+define('__INCLUDE__', "../include");
+require_once(__INCLUDE__."/common.php");
+
 $page = 'portfolio';
 $page_name = ' - Новорожденные';
 ?>
 
-<?php include 'head.php' ?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<?php include __INCLUDE__.'/head.php' ?>
 
 <body>
 
-<?php include 'navbar.php' ?>
+<?php include __INCLUDE__.'/navbar.php' ?>
 
 <div class="container marketing">
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/5111.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/0938.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/0954.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/3230.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/5939.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="span12">
-            <img src="assets/img/5943.jpg" alt="">
-        </div>
-    </div>
-
-    <?php include 'footer.php' ?>
+    <?php
+    createPortfolioPhotoElements(
+        array("5111", "0938", "0954", "3230", "5939", "5943")
+    );
+    ?>
+    <?php include __INCLUDE__.'/footer.php' ?>
 
 </div>
 
-<?php include 'js.php' ?>
+<?php include __INCLUDE__.'/js.php' ?>
 </body>
 </html>

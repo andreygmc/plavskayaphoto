@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="ru">
-
 <?php
+define('__INCLUDE__', "../include");
+require_once(__INCLUDE__."/common.php");
+
 $page = 'feedback';
 $page_name = ' - Отзывы';
 ?>
 
-<?php include 'head.php' ?>
+<!DOCTYPE html>
+<html lang="ru">
+
+<?php include __INCLUDE__.'/head.php' ?>
 
 <body>
 
-<?php include 'navbar.php' ?>
+<?php include __INCLUDE__.'/navbar.php' ?>
 
 <div class="container marketing">
 
@@ -29,11 +32,11 @@ $page_name = ' - Отзывы';
         Катюша - не просто фотограф, это волшебник, который чудесным образом превращает обычную фотосессию в увлекательное семейное событие. Непринужденная и дружелюбная обстановка, созданная Катей во время съемки, раскрепощает не только детей, но и пап, которые обычно с неохотой соглашаются на подобные мероприятия. А уж сколько любви, нежности и трогательности остается в нашей памяти и на стенах в виде твоих снимков. Катя, спасибо, что останавливаешь время, что даешь возможность вернуться в такие важные и значимые события нашей жизни!
     </blockquote>
 
-<?php include 'footer.php' ?>
+<?php include __INCLUDE__.'/footer.php' ?>
 
 </div>
 
-<?php include 'js.php' ?>
+<?php include __INCLUDE__.'/js.php' ?>
 
 </body>
 </html>
