@@ -17,6 +17,12 @@ $page_name = ' - Блог';
 
 <div class="container marketing">
     <?php
+    $post3 = new BlogPreview();
+    $post3->page_name = "07092015";
+    $post3->title = "Встреча";
+    $post3->preview = '07092015/16';
+    $post3->date = '07-09-2015';
+
     $post2 = new BlogPreview();
     $post2->page_name = "05082015";
     $post2->title = "Однажды на лесной опушке";
@@ -29,7 +35,7 @@ $page_name = ' - Блог';
     $post1->preview = '1441';
     $post1->date = '12-07-2015';
 
-    createBlogPreviewElements(array($post2, $post1));
+    createBlogPreviewElements(array($post3, $post2, $post1));
 
     ?>
 
