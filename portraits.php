@@ -18,7 +18,8 @@ $page_name = ' - Портреты';
 <div class="container marketing">
     <?php
     createPortfolioPhotoElements(
-        array("5296", "1852", "0912-bw", "3627", "3610", "1771", "1857", "1794", "2582", "2598", "3505")
+        array("8724", "st-1", "6536", "ul-1", "5815", "nat-3", "5296", "1852", "0912-bw", "3627", "3610", "1771",
+            "1857", "1794", "2582", "2598", "3505")
     );
     ?>
     <?php include __INCLUDE__.'/footer.php' ?>

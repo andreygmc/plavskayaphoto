@@ -53,6 +53,13 @@ $page_name = ' - Портфолио';
                     ПОРТРЕТЫ
                 </a>
             </li>
+
+            <li class="span3">
+                <a href="retouch.php" class="thumbnail">
+                    <img style="width: auto; height: auto;" src="assets/img/1794-th.jpg" alt="">
+                    РЕТУШЬ
+                </a>
+            </li>
         </ul>
     </div>
 
