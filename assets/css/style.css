@@ -52,7 +52,7 @@ footer {
     margin-top: 80px;
     margin-left:auto;
     margin-right:auto;
-    width: 1000px;
+    max-width: 1300px;
 }
 
 /*FADE*/
@@ -101,8 +101,7 @@ footer {
 }
 
 .carousel img {
-    max-width: 1000px;
-    max-height: 668px;
+    max-width: 1300px;
     margin: 0 auto;
     position: relative;
 }
@@ -163,11 +162,23 @@ footer {
     color: #cccccc !important;
 }
 
-@media (max-width: 979px) {
-    .marketing {
-        margin-top: 20px;
+@media (max-width: 1300px) {
+    .navbar-inner {
+        margin: 0;
     }
 
+    .carousel {
+        margin-left:auto;
+        margin-right:auto;
+        width: 1050px;
+    }
+
+    .carousel img {
+        max-width: 1050px;
+    }
+}
+
+@media (max-width: 1024px) {
     .navbar-inner {
         margin: 0;
     }
@@ -183,6 +194,26 @@ footer {
     }
 }
 
+@media (max-width: 979px) {
+    .marketing {
+        margin-top: 20px;
+    }
+
+    .navbar-inner {
+        margin: 0;
+    }
+
+    .carousel {
+        margin-top: 20px;
+        margin-left:auto;
+        margin-right:auto;
+        width: 760px;
+    }
+
+    .carousel img {
+        max-width: 760px;
+    }
+}
 
 @media (max-width: 767px) {
     .marketing {
@@ -194,6 +225,7 @@ footer {
     }
 
     .carousel {
+        margin-top: 20px;
         margin-left:auto;
         margin-right:auto;
         width: 440px;
@@ -227,6 +259,7 @@ footer {
     }
 
     .carousel {
+        margin-top: 20px;
         margin-left:auto;
         margin-right:auto;
         width: 280px;

@@ -17,6 +17,24 @@ $page_name = ' - Блог';
 
 <div class="container marketing">
     <?php
+    $post7 = new BlogPreview();
+    $post7->page_name = "14042016";
+    $post7->title = "В волшебном парке";
+    $post7->preview = '14042016/1';
+    $post7->date = '14-04-2016';
+
+    $post6 = new BlogPreview();
+    $post6->page_name = "26032016";
+    $post6->title = "Начало весны";
+    $post6->preview = '26032016/4';
+    $post6->date = '26-03-2016';
+
+    $post5 = new BlogPreview();
+    $post5->page_name = "01032016";
+    $post5->title = "Зимняя прогулка";
+    $post5->preview = '01032016/5';
+    $post5->date = '01-03-2016';
+
     $post4 = new BlogPreview();
     $post4->page_name = "21112015";
     $post4->title = "Про осень и дружбу";
@@ -41,7 +59,7 @@ $page_name = ' - Блог';
     $post1->preview = '1441';
     $post1->date = '12-07-2015';
 
-    createBlogPreviewElements(array($post4, $post3, $post2, $post1));
+    createBlogPreviewElements(array($post7, $post6, $post5, $post4, $post3, $post2, $post1));
 
     ?>
 

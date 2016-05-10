@@ -15,11 +15,9 @@
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class="<?php echo ($page == "home" ? "active" : "")?>"><a href="/">ГЛАВНАЯ</a></li>
-                        <li class="<?php echo ($page == "portfolio" ? "active" : "")?>"><a href="portfolio.php">ПОРТФОЛИО</a></li>
                         <li class="<?php echo ($page == "about" ? "active" : "")?>"><a href="about.php">ОБО МНЕ</a></li>
                         <li class="<?php echo ($page == "services" ? "active" : "")?>"><a href="services.php">УСЛУГИ</a></li>
-                        <li class="<?php echo ($page == "feedback" ? "active" : "")?>"><a href="feedback.php">ОТЗЫВЫ</a></li>
-                        <li class="<?php echo ($page == "blog" ? "active" : "")?>"><a href="blog.php">БЛОГ</a></li>
+                        <li class="<?php echo ($page == "blog" ? "active" : "")?>"><a href="blog.php">ФОТОСЕССИИ</a></li>
                         <li class="<?php echo ($page == "contacts" ? "active" : "")?>"><a href="contacts.php">КОНТАКТЫ</a></li>
                     </ul>
                 </div>

@@ -18,76 +18,64 @@ $page_name = '';
 <div id="myCarousel" class="carousel slide c-fade">
     <div class="carousel-inner">
         <div class="item active">
-            <img src="assets/img/8866.jpg">
+            <img src="assets/img/1.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/nat-1.jpg">
+            <img src="assets/img/2.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/lar-1.jpg">
+            <img src="assets/img/3.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/8792.jpg">
+            <img src="assets/img/4.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/nat-2.jpg">
-        </div>
-        <!--div class="item">
-            <img src="assets/img/8962.jpg">
-        </div-->
-        <div class="item">
-            <img src="assets/img/3307.jpg">
+            <img src="assets/img/5.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/3455.jpg">
+            <img src="assets/img/6.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/3467.jpg">
+            <img src="assets/img/7.jpg">
+        </div>
+        <!--<div class="item">
+            <img src="assets/img/8.jpg">
+        </div>-->
+        <div class="item">
+            <img src="assets/img/9.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/2819.jpg">
+            <img src="assets/img/10.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/1908.jpg">
+            <img src="assets/img/11.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/2810.jpg">
+            <img src="assets/img/12.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/1872.jpg">
+            <img src="assets/img/13.jpg">
+        </div>
+        <!--<div class="item">
+            <img src="assets/img/14.jpg">
+        </div>-->
+        <!--<div class="item">
+            <img src="assets/img/15.jpg">
+        </div>-->
+        <div class="item">
+            <img src="assets/img/16.jpg">
+        </div>
+        <!--<div class="item">
+            <img src="assets/img/17.jpg">
+        </div>-->
+        <div class="item">
+            <img src="assets/img/18.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/1703.jpg">
+            <img src="assets/img/19.jpg">
         </div>
         <div class="item">
-            <img src="assets/img/1381.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/0938.jpg">
-        </div>
-		<div class="item">
-            <img src="assets/img/1131.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/3286.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/0810.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/1076.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/1214.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/1441.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/0954.jpg">
-        </div>
-        <div class="item">
-            <img src="assets/img/2582.jpg">
+            <img src="assets/img/20.jpg">
         </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
